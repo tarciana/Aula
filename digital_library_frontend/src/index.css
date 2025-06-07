@@ -1,0 +1,12 @@
+/* digital_library_frontend/src/index.css */
+
+/* Importa as diretivas base do Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Você pode adicionar seus próprios estilos CSS aqui se precisar */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Usando Inter como sugerido */
+}
