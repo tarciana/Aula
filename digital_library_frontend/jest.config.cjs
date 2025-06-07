@@ -1,6 +1,12 @@
-// jest.config.js
+// jest.config.cjs
+// Renomeado de .js para .cjs para indicar explicitamente que é um módulo CommonJS
+// e resolver o erro "module is not defined" em projetos ES Module.
 
 module.exports = {
+  // Define o diretório raiz do projeto Jest.
+  // '.' significa o diretório onde este arquivo de configuração está localizado.
+  rootDir: '.',
+
   // Define o ambiente de teste como JSDOM (simula um navegador)
   testEnvironment: 'jest-environment-jsdom',
 
